@@ -6,4 +6,6 @@ COPY . .
 
 RUN gitbook install && gitbook build
 
+EXPOSE 4000
+
 CMD ["gitbook","serve"]
