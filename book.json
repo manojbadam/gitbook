@@ -1,0 +1,17 @@
+{
+    "root": "./docs",
+    "title":"My Documents",
+    "description": "This is the sample description of my documents",
+    "author" : "Manoj Badam",
+    "plugins": [
+        "insert-logo",
+        "ancre-navigation",
+        "collapsible-chapters"
+   ],
+   "pluginsConfig": {
+    "insert-logo": {
+        "url": "./facebook.png",
+        "style": "background: none;"
+    }
+}
+}
